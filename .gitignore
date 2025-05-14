@@ -1,0 +1,28 @@
+# Flutter/Dart related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# Build outputs
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+*.flutter-plugins
+*.flutter-plugins-dependencies
+flutter-plugins
+flutter-plugins-dependencies
+
+# macOS
+__MACOSX/
+
+# IDE related files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+
+# Others
+*.log
+*.bak

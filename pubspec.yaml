@@ -1,0 +1,42 @@
+name: c1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  video_player: ^2.7.0
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+  crypto: ^3.0.3
+  convert: ^3.1.1
+  intl: ^0.18.1
+  file_picker: ^10.1.7
+  flutter_plugin_android_lifecycle: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+#  plugin:
+#    platforms:
+#      android:
+#        default_package: file_picker
+#      ios:
+#        default_package: file_picker
+#      macos:
+#        default_package: file_picker
+#      windows:
+#        default_package: file_picker
+#      linux:
+#        default_package: file_picker
